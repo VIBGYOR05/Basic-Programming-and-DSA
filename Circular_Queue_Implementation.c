@@ -9,7 +9,7 @@ int main()
     int op;
     while(1)
     {   int val;
-        printf("Enter 1 for insert\nEnter 2 for delete\nEnter 3 for display\n");
+        printf("\nEnter 1 for insert\nEnter 2 for delete\nEnter 3 for display\n");
         printf("Enter choice\n");
         scanf("%d",&op);
         switch(op)
