@@ -16,7 +16,7 @@ int main()
     }
 while(1)
     {
-    printf(" type 1 for insertion of an element\n type 2 for deletion of element\n type 3 for displaying the final array\n type 4 for exit");
+    printf("\ntype 1 for insertion of an element\n type 2 for deletion of element\n type 3 for displaying the final array\n type 4 for exit");
     printf("Your choice\n");
     scanf("%d",&s);
 
@@ -35,7 +35,7 @@ while(1)
 void insert()
 {
      int pos,i,value;
-     printf("Enter the position where you would require to insert the element\n");
+     printf("\nEnter the position where you would require to insert the element\n");
                 scanf("%d",&pos);
                 printf("Enter the value to insert\n");
                 scanf("%d",&value);
@@ -53,7 +53,7 @@ void insert()
 }
 void deleteit()
 {   int pos,i;
-    printf("Enter the position where you would require to delete the element\n");
+    printf("\nEnter the position where you would require to delete the element\n");
                 scanf("%d",&pos);
                 for(i=pos-1;i<n;i++)
                 {
@@ -64,7 +64,7 @@ void deleteit()
 }
 void display()
 {   int i;
-    printf("the final array is\n");
+    printf("\nthe final array is\n");
               for(i=0;i<n;i++)
               {
                   printf("%d\n",a[i]);
