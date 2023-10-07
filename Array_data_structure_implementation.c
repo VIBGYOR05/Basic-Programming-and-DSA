@@ -44,8 +44,12 @@ void insert()
                     a[i+1]=a[i];
 
                 }
+
+                if(pos<=n)
+                {
                 a[pos-1]=value;
                     n=n+1;
+                }
 }
 void deleteit()
 {   int pos,i;
