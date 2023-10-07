@@ -13,7 +13,7 @@ int main()
     i++;
     count++;
  }
- str3[count++] = "";
+ 
 while (str2[j]!='\0')
 {
     str3[count]=str2[j];
