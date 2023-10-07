@@ -13,7 +13,7 @@ int main()
     while(1)
     {
         int op;
-        printf("Menu:\n 1.insert rear \t 2.insert front\t 3.delete rear \t 4.delete front \t 5.display \t 6.exit\n");
+        printf("\nMenu:\n1.insert rear \t 2.insert front\t 3.delete rear \t 4.delete front \t 5.display \t 6.exit\n");
         printf("Enter the choice:\n");
         scanf("%d",&op);
         switch(op)
