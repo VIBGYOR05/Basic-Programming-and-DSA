@@ -9,7 +9,7 @@ int main()
     while(1)
     {
         int op;
-        printf(" type 1 to insert\n type 2 for delete\n type 3 for display\n ");
+        printf("\ntype 1 to insert\n type 2 for delete\n type 3 for display\n ");
         printf("Enter choice\n");
         scanf("%d",&op);
         switch(op)
@@ -35,7 +35,7 @@ void insert()
     else
     {
         int data;
-        printf("Enter the value to insert\n");
+        printf("\nEnter the value to insert\n");
         scanf("%d",&data);
         rear=rear+1;
         q[rear]=data;
