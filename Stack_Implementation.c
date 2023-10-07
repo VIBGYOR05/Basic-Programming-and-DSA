@@ -12,7 +12,7 @@
 
      while(1)
      {
-        printf(" type 1 for push\n type 2 for pop\n type 3 for display\n");
+        printf("\ntype 1 for push\n type 2 for pop\n type 3 for display\n");
         scanf("%d",&op);
         switch(op)
         {
